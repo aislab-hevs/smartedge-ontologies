@@ -1,0 +1,481 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/"
+     xml:base="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignSwarmNode -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignSwarmNode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignTask -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignTask">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/containsNode -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/containsNode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesRecipe -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesRecipe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesSwarmTasks -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesSwarmTasks">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasLocation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNetworkAttributes -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNetworkAttributes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NetworkAttributes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNodeIdentifier -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNodeIdentifier">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeIdentifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasReachabilityState -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasReachabilityState">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/ReachabilityState"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasRole -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasRole">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Role"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSecurityScheme -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSecurityScheme">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SecurityScheme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasServiceFramework -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasServiceFramework">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeServiceFramework"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSkill -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSkill">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Skill"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmIdentifier -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmIdentifier">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmIdentifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmNode -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmNode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/instantiatedFromRecipe -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/instantiatedFromRecipe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/manageSwarm -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/manageSwarm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/nodeProtocol -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/nodeProtocol">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeProtocol"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/publishesEvent -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/publishesEvent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/recipeHasIdentifier -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/recipeHasIdentifier">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Recipe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/requestForSwarmNode -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/requestForSwarmNode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Event -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier">
+        <rdfs:comment>Unique identifier.</rdfs:comment>
+        <rdfs:label>Identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Location -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Location">
+        <rdfs:comment>Current location of a SmartEdge node.</rdfs:comment>
+        <rdfs:label>Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NetworkAttributes -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NetworkAttributes">
+        <rdfs:comment>Attributes of a network where swarm is running.</rdfs:comment>
+        <rdfs:label>Network Attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeIdentifier -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeIdentifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier"/>
+        <rdfs:comment>Unique identifier of a swarm node.</rdfs:comment>
+        <rdfs:label>node identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeProtocol -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeProtocol">
+        <rdfs:comment>Protocol used by the node to connect to other nodes in the swarm.</rdfs:comment>
+        <rdfs:label>Node protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeServiceFramework -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeServiceFramework">
+        <rdfs:label>Node Service Framework
+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/ReachabilityState -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/ReachabilityState">
+        <rdfs:comment>Reachability state of a node in the swarm. It specifies if the node is currently reachable or not by other swarm nodes.</rdfs:comment>
+        <rdfs:label>Reachability State</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Recipe -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Recipe">
+        <rdfs:comment>Recipe is a template which specifies the requirements of an application.</rdfs:comment>
+        <rdfs:label>Recipe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier"/>
+        <rdfs:comment>Unique identifier of a Recipe.</rdfs:comment>
+        <rdfs:label>Recipe Identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Role -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Role">
+        <rdfs:comment>The role played by a SmartEdge node in the swarm. E.g., swarm co-ordinator.</rdfs:comment>
+        <rdfs:label>Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SecurityScheme -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SecurityScheme">
+        <rdfs:comment>Security scheme implemented by a SmartEdge node. The other nodes needs to follow this security scheme to access the node.</rdfs:comment>
+        <rdfs:label>Security scheme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Skill -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Skill">
+        <rdfs:comment>The capability of a SmartEdge node to perform a task or a function.</rdfs:comment>
+        <rdfs:label>Skill</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode">
+        <rdfs:comment>A node participating in a swarm.</rdfs:comment>
+        <rdfs:label>SmartEdge Node
+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"/>
+        <rdfs:comment>A smart node participating in a swarm. SmartEdge smart node is a subclass of SmartEdge node where the smart node has the capability to dynamically join or leave the swarm. </rdfs:comment>
+        <rdfs:label>SmartEdge Smart Node</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm">
+        <rdfs:comment>A swarm can be seen as an application that is instantiated from a recipe. It executes the tasks prescribed in a recipe and achieves the objective of the recipe. </rdfs:comment>
+        <rdfs:label>Swarm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator">
+        <rdfs:comment>The role of a swarm coordinator is to do resource coordination for the swarm by allocating required nodes to the swarm and manage the swarm to ensure its successful execution. It is the key component of the swarm as it interacts with different components inside and outside of the swarm for its successful execution. </rdfs:comment>
+        <rdfs:label>Swarm Co-ordinator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmIdentifier -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmIdentifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier"/>
+        <rdfs:comment>Unique identifier of a swarm.</rdfs:comment>
+        <rdfs:label>Swarm identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator">
+        <rdfs:comment>A swarm orchestrator executes the tasks defined in a recipe in the swarm using swarm nodes. It connects to the swarm nodes with required skills, which are discovered and provided to it by the swarm coordinator.</rdfs:comment>
+        <rdfs:label>Swarm Orchestrator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Bowl -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Bowl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/ -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Bowl"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

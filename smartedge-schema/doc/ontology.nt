@@ -1,0 +1,248 @@
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignSwarmNode
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignSwarmNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignSwarmNode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignSwarmNode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignTask
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignTask> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignTask> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignTask> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/containsNode
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/containsNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/containsNode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/containsNode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesRecipe
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesRecipe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesRecipe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesRecipe> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesSwarmTasks
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesSwarmTasks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesSwarmTasks> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesSwarmTasks> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasLocation
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Location> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNetworkAttributes
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNetworkAttributes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNetworkAttributes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNetworkAttributes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NetworkAttributes> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNodeIdentifier
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNodeIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNodeIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNodeIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNodeIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeIdentifier> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasReachabilityState
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasReachabilityState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasReachabilityState> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasReachabilityState> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasReachabilityState> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/ReachabilityState> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasRole
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Role> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSecurityScheme
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSecurityScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSecurityScheme> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSecurityScheme> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSecurityScheme> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SecurityScheme> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasServiceFramework
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasServiceFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasServiceFramework> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasServiceFramework> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasServiceFramework> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeServiceFramework> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSkill
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSkill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSkill> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSkill> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSkill> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Skill> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmIdentifier
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmIdentifier> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmNode
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmNode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmNode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmNode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/instantiatedFromRecipe
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/instantiatedFromRecipe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/instantiatedFromRecipe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/instantiatedFromRecipe> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/manageSwarm
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/manageSwarm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/manageSwarm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/manageSwarm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/nodeProtocol
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/nodeProtocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/nodeProtocol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/nodeProtocol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/nodeProtocol> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeProtocol> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/publishesEvent
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/publishesEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/publishesEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/publishesEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/publishesEvent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Event> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/recipeHasIdentifier
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/recipeHasIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/recipeHasIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Recipe> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/recipeHasIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/requestForSwarmNode
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/requestForSwarmNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/requestForSwarmNode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/requestForSwarmNode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Event
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Unique identifier." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Location
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Current location of a SmartEdge node." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NetworkAttributes
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NetworkAttributes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NetworkAttributes> <http://www.w3.org/2000/01/rdf-schema#comment> "Attributes of a network where swarm is running." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NetworkAttributes> <http://www.w3.org/2000/01/rdf-schema#label> "Network Attributes" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeIdentifier
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeIdentifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Unique identifier of a swarm node." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "node identifier" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeProtocol
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeProtocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeProtocol> <http://www.w3.org/2000/01/rdf-schema#comment> "Protocol used by the node to connect to other nodes in the swarm." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeProtocol> <http://www.w3.org/2000/01/rdf-schema#label> "Node protocol" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeServiceFramework
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeServiceFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeServiceFramework> <http://www.w3.org/2000/01/rdf-schema#label> "Node Service Framework\r\n" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/ReachabilityState
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/ReachabilityState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/ReachabilityState> <http://www.w3.org/2000/01/rdf-schema#comment> "Reachability state of a node in the swarm. It specifies if the node is currently reachable or not by other swarm nodes." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/ReachabilityState> <http://www.w3.org/2000/01/rdf-schema#label> "Reachability State" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Recipe
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Recipe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Recipe> <http://www.w3.org/2000/01/rdf-schema#comment> "Recipe is a template which specifies the requirements of an application." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Recipe> <http://www.w3.org/2000/01/rdf-schema#label> "Recipe" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Unique identifier of a Recipe." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "Recipe Identifier" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Role
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Role> <http://www.w3.org/2000/01/rdf-schema#comment> "The role played by a SmartEdge node in the swarm. E.g., swarm co-ordinator." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Role> <http://www.w3.org/2000/01/rdf-schema#label> "Role" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SecurityScheme
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SecurityScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SecurityScheme> <http://www.w3.org/2000/01/rdf-schema#comment> "Security scheme implemented by a SmartEdge node. The other nodes needs to follow this security scheme to access the node." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SecurityScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Security scheme" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Skill
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Skill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Skill> <http://www.w3.org/2000/01/rdf-schema#comment> "The capability of a SmartEdge node to perform a task or a function." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Skill> <http://www.w3.org/2000/01/rdf-schema#label> "Skill" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> <http://www.w3.org/2000/01/rdf-schema#comment> "A node participating in a swarm." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> <http://www.w3.org/2000/01/rdf-schema#label> "SmartEdge Node\r\n" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> <http://www.w3.org/2000/01/rdf-schema#comment> "A smart node participating in a swarm. SmartEdge smart node is a subclass of SmartEdge node where the smart node has the capability to dynamically join or leave the swarm. " .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode> <http://www.w3.org/2000/01/rdf-schema#label> "SmartEdge Smart Node" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm> <http://www.w3.org/2000/01/rdf-schema#comment> "A swarm can be seen as an application that is instantiated from a recipe. It executes the tasks prescribed in a recipe and achieves the objective of the recipe. " .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm> <http://www.w3.org/2000/01/rdf-schema#label> "Swarm" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator> <http://www.w3.org/2000/01/rdf-schema#comment> "The role of a swarm coordinator is to do resource coordination for the swarm by allocating required nodes to the swarm and manage the swarm to ensure its successful execution. It is the key component of the swarm as it interacts with different components inside and outside of the swarm for its successful execution. " .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator> <http://www.w3.org/2000/01/rdf-schema#label> "Swarm Co-ordinator" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmIdentifier
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmIdentifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Unique identifier of a swarm." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "Swarm identifier" .
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator> <http://www.w3.org/2000/01/rdf-schema#comment> "A swarm orchestrator executes the tasks defined in a recipe in the swarm using swarm nodes. It connects to the swarm nodes with required skills, which are discovered and provided to it by the swarm coordinator." .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator> <http://www.w3.org/2000/01/rdf-schema#label> "Swarm Orchestrator" .
+# 
+# http://www.w3.org/2002/07/owl#Bowl
+<http://www.w3.org/2002/07/owl#Bowl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Bowl> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

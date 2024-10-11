@@ -1,0 +1,726 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema" ],
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Location",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Location",
+      "undefined" : "Location"
+    },
+    "comment" : {
+      "undefined" : "Current location of a SmartEdge node."
+    },
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NetworkAttributes",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NetworkAttributes",
+      "undefined" : "Network Attributes"
+    },
+    "comment" : {
+      "undefined" : "Attributes of a network where swarm is running."
+    },
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SmartEdgeNode",
+      "undefined" : "SmartEdge Node\r\n"
+    },
+    "subClasses" : [ "18" ],
+    "comment" : {
+      "undefined" : "A node participating in a swarm."
+    },
+    "attributes" : [ "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeIdentifier",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NodeIdentifier",
+      "undefined" : "node identifier"
+    },
+    "comment" : {
+      "undefined" : "Unique identifier of a swarm node."
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeServiceFramework",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NodeServiceFramework",
+      "undefined" : "Node Service Framework\r\n"
+    },
+    "attributes" : [ "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SmartEdgeSmartNode",
+      "undefined" : "SmartEdge Smart Node"
+    },
+    "comment" : {
+      "undefined" : "A smart node participating in a swarm. SmartEdge smart node is a subclass of SmartEdge node where the smart node has the capability to dynamically join or leave the swarm. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Swarm",
+      "undefined" : "Swarm"
+    },
+    "comment" : {
+      "undefined" : "A swarm can be seen as an application that is instantiated from a recipe. It executes the tasks prescribed in a recipe and achieves the objective of the recipe. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Identifier",
+      "undefined" : "Identifier"
+    },
+    "subClasses" : [ "21", "40", "23" ],
+    "comment" : {
+      "undefined" : "Unique identifier."
+    },
+    "attributes" : [ "external" ],
+    "id" : "24"
+  }, {
+    "instances" : 0,
+    "union" : [ "18", "17" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SwarmOrchestrator",
+      "undefined" : "Swarm Orchestrator"
+    },
+    "comment" : {
+      "undefined" : "A swarm orchestrator executes the tasks defined in a recipe in the swarm using swarm nodes. It connects to the swarm nodes with required skills, which are discovered and provided to it by the swarm coordinator."
+    },
+    "attributes" : [ "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmIdentifier",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SwarmIdentifier",
+      "undefined" : "Swarm identifier"
+    },
+    "comment" : {
+      "undefined" : "Unique identifier of a swarm."
+    },
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SecurityScheme",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SecurityScheme",
+      "undefined" : "Security scheme"
+    },
+    "comment" : {
+      "undefined" : "Security scheme implemented by a SmartEdge node. The other nodes needs to follow this security scheme to access the node."
+    },
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Role",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Role",
+      "undefined" : "Role"
+    },
+    "comment" : {
+      "undefined" : "The role played by a SmartEdge node in the swarm. E.g., swarm co-ordinator."
+    },
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "instances" : 0,
+    "union" : [ "18", "17" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "47"
+  }, {
+    "instances" : 0,
+    "union" : [ "18", "17" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "31"
+  }, {
+    "instances" : 0,
+    "union" : [ "18", "17" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "2"
+  }, {
+    "instances" : 0,
+    "union" : [ "18", "17" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "5"
+  }, {
+    "instances" : 0,
+    "union" : [ "18", "17" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "8"
+  }, {
+    "instances" : 0,
+    "union" : [ "18", "17" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "46"
+  }, {
+    "instances" : 0,
+    "union" : [ "18", "17" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Skill",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Skill",
+      "undefined" : "Skill"
+    },
+    "comment" : {
+      "undefined" : "The capability of a SmartEdge node to perform a task or a function."
+    },
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "instances" : 0,
+    "union" : [ "18", "17" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RecipeIdentifier",
+      "undefined" : "Recipe Identifier"
+    },
+    "comment" : {
+      "undefined" : "Unique identifier of a Recipe."
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeProtocol",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NodeProtocol",
+      "undefined" : "Node protocol"
+    },
+    "comment" : {
+      "undefined" : "Protocol used by the node to connect to other nodes in the swarm."
+    },
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Event",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event"
+    },
+    "attributes" : [ "external" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/ReachabilityState",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ReachabilityState",
+      "undefined" : "Reachability State"
+    },
+    "comment" : {
+      "undefined" : "Reachability state of a node in the swarm. It specifies if the node is currently reachable or not by other swarm nodes."
+    },
+    "attributes" : [ "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Bowl",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bowl"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/",
+      "baseIri" : "http://www.semanticweb.org/SmartEdge",
+      "labels" : { }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "52"
+  }, {
+    "instances" : 0,
+    "union" : [ "18", "17" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "27"
+  }, {
+    "instances" : 0,
+    "union" : [ "18", "17" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SwarmCoordinator",
+      "undefined" : "Swarm Co-ordinator"
+    },
+    "comment" : {
+      "undefined" : "The role of a swarm coordinator is to do resource coordination for the swarm by allocating required nodes to the swarm and manage the swarm to ensure its successful execution. It is the key component of the swarm as it interacts with different components inside and outside of the swarm for its successful execution. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Recipe",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Recipe",
+      "undefined" : "Recipe"
+    },
+    "comment" : {
+      "undefined" : "Recipe is a template which specifies the requirements of an application."
+    },
+    "attributes" : [ "external" ],
+    "id" : "38"
+  } ],
+  "property" : [ {
+    "id" : "1",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasRole",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasRole"
+    },
+    "domain" : "2",
+    "attributes" : [ "object", "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSecurityScheme",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasSecurityScheme"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/nodeProtocol",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "nodeProtocol"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/requestForSwarmNode",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "requestForSwarmNode"
+    },
+    "domain" : "11",
+    "attributes" : [ "object", "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSkill",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "hasSkill"
+    },
+    "domain" : "15",
+    "attributes" : [ "object", "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/instantiatedFromRecipe",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "instantiatedFromRecipe"
+    },
+    "domain" : "20",
+    "attributes" : [ "object", "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignSwarmNode",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "assignSwarmNode"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasLocation",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "hasLocation"
+    },
+    "domain" : "27",
+    "attributes" : [ "object", "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmNode",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "hasSwarmNode"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasReachabilityState",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "hasReachabilityState"
+    },
+    "domain" : "31",
+    "attributes" : [ "object", "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesSwarmTasks",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "executesSwarmTasks"
+    },
+    "domain" : "11",
+    "attributes" : [ "object", "external" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNodeIdentifier",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasNodeIdentifier"
+    },
+    "domain" : "35",
+    "attributes" : [ "object", "external" ],
+    "id" : "34"
+  }, {
+    "range" : "24",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/recipeHasIdentifier",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "recipeHasIdentifier"
+    },
+    "domain" : "38",
+    "attributes" : [ "object", "external" ],
+    "id" : "37"
+  }, {
+    "range" : "24",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmIdentifier",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "hasSwarmIdentifier"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "41"
+  }, {
+    "range" : "24",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "17",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/containsNode",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "containsNode"
+    },
+    "domain" : "20",
+    "attributes" : [ "object", "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasServiceFramework",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "hasServiceFramework"
+    },
+    "domain" : "46",
+    "attributes" : [ "object", "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignTask",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "assignTask"
+    },
+    "domain" : "11",
+    "attributes" : [ "object", "external" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesRecipe",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "executesRecipe"
+    },
+    "domain" : "11",
+    "attributes" : [ "object", "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/manageSwarm",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "manageSwarm"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/publishesEvent",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "publishesEvent"
+    },
+    "domain" : "47",
+    "attributes" : [ "object", "external" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNetworkAttributes",
+    "baseIri" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasNetworkAttributes"
+    },
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "55"
+  } ]
+}

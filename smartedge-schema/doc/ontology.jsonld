@@ -1,0 +1,395 @@
+[ {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Bowl"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Unique identifier."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Identifier"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Current location of a SmartEdge node."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NetworkAttributes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attributes of a network where swarm is running."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Network Attributes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Unique identifier of a swarm node."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "node identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeProtocol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Protocol used by the node to connect to other nodes in the swarm."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Node protocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeServiceFramework",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Node Service Framework\r\n"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/ReachabilityState",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Reachability state of a node in the swarm. It specifies if the node is currently reachable or not by other swarm nodes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Reachability State"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Recipe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Recipe is a template which specifies the requirements of an application."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Recipe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Unique identifier of a Recipe."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Recipe Identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Role",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The role played by a SmartEdge node in the swarm. E.g., swarm co-ordinator."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SecurityScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Security scheme implemented by a SmartEdge node. The other nodes needs to follow this security scheme to access the node."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Security scheme"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Skill",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The capability of a SmartEdge node to perform a task or a function."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Skill"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A node participating in a swarm."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "SmartEdge Node\r\n"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A smart node participating in a swarm. SmartEdge smart node is a subclass of SmartEdge node where the smart node has the capability to dynamically join or leave the swarm. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "SmartEdge Smart Node"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A swarm can be seen as an application that is instantiated from a recipe. It executes the tasks prescribed in a recipe and achieves the objective of the recipe. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Swarm"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The role of a swarm coordinator is to do resource coordination for the swarm by allocating required nodes to the swarm and manage the swarm to ensure its successful execution. It is the key component of the swarm as it interacts with different components inside and outside of the swarm for its successful execution. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Swarm Co-ordinator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Unique identifier of a swarm."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Swarm identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Identifier"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A swarm orchestrator executes the tasks defined in a recipe in the swarm using swarm nodes. It connects to the swarm nodes with required skills, which are discovered and provided to it by the swarm coordinator."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Swarm Orchestrator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignSwarmNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/assignTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"
+  }, {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/containsNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesRecipe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/executesSwarmTasks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"
+  }, {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNetworkAttributes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NetworkAttributes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasNodeIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"
+  }, {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeIdentifier"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasReachabilityState",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"
+  }, {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/ReachabilityState"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"
+  }, {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSecurityScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"
+  }, {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SecurityScheme"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasServiceFramework",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"
+  }, {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeServiceFramework"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSkill",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"
+  }, {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Skill"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmIdentifier"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/hasSwarmNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"
+  }, {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/instantiatedFromRecipe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/manageSwarm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Swarm"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/nodeProtocol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"
+  }, {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/NodeProtocol"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/publishesEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeNode"
+  }, {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SmartEdgeSmartNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/recipeHasIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/Recipe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/RecipeIdentifier"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/requestForSwarmNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmOrchestrator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SmartEdge/SmartEdgeSchema/www.semanticweb.org/SmartEdge/SmartEdgeSchema/SwarmCoordinator"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Bowl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]
