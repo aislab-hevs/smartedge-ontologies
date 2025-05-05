@@ -1,0 +1,530 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://www.w3.org/2019/wot/td", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1", "https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel", "https:///opcua/CapabilityModel", "https://w3id.org/smartedge/recipe-model" ],
+    "title" : {
+      "en" : "SmartEdge Recipe Model: Semantic Interoperability for Edge Swarms"
+    },
+    "iri" : "https://w3id.org/smartedge/recipe-model#",
+    "version" : "0.0.2",
+    "author" : [ "https://orcid.org/0000-0002-7564-4279", "https://orcid.org/0000-0002-0583-4376" ],
+    "description" : {
+      "en" : "This ontology aims to model nodes in a swarm of edge and IoT devices, capable of managing orchestration and coordination among them, in order to accomplish common goals."
+    },
+    "labels" : {
+      "en" : "Recipe Model"
+    },
+    "comments" : {
+      "en" : "This ontology aims to model nodes in a swarm of edge and IoT devices, capable of managing orchestration and coordination among them, in order to accomplish common goals."
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0002-0583-4376",
+        "type" : "iri"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0002-7564-4279",
+        "type" : "iri"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2024-06-01",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.0.2",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "SmartEdge Recipe Model: Semantic Interoperability for Edge Swarms",
+        "type" : "label"
+      } ],
+      "fundedBy" : [ {
+        "identifier" : "fundedBy",
+        "language" : "undefined",
+        "value" : "https://commission.europa.eu/",
+        "type" : "iri"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0002-0364-6945",
+        "type" : "iri"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "s-edge",
+        "type" : "label"
+      } ],
+      "rights" : [ {
+        "identifier" : "rights",
+        "language" : "undefined",
+        "value" : "Copyright © 2025 Siemens AG, HES-SO Valais-Wallis",
+        "type" : "label"
+      } ],
+      "logo" : [ {
+        "identifier" : "logo",
+        "language" : "undefined",
+        "value" : "https://www.smart-edge.eu/wp-content/uploads/2024/03/logo-smartedge-full.png",
+        "type" : "iri"
+      } ],
+      "publisher" : [ {
+        "identifier" : "publisher",
+        "language" : "undefined",
+        "value" : "https://www.smart-edge.eu/",
+        "type" : "iri"
+      } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2025-05-04",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/smartedge/recipe-model#",
+        "type" : "label"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2025-05-01",
+        "type" : "label"
+      } ],
+      "status" : [ {
+        "identifier" : "status",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/status/draft",
+        "type" : "iri"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/smartedge/recipe-model#Retrieve",
+    "baseIri" : "https://w3id.org/smartedge/recipe-model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Retrieve",
+      "undefined" : "Retrieve"
+    },
+    "comment" : {
+      "undefined" : "Retrieve operation"
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/smartedge/recipe-model#Publish",
+    "baseIri" : "https://w3id.org/smartedge/recipe-model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Publish",
+      "undefined" : "Publish"
+    },
+    "comment" : {
+      "undefined" : "Publish operation "
+    },
+    "id" : "12",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://www.w3.org/2019/wot/td#InteractionAffordance",
+    "baseIri" : "https://www.w3.org/2019/wot/td",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InteractionAffordance",
+      "undefined" : "Interaction Affordance"
+    },
+    "comment" : {
+      "undefined" : "A W3C Web of Things Thing Description Interaction Affordance used as a capability in a Recipe"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Organization",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "individuals" : [ {
+      "iri" : "https://siemens.com#this",
+      "baseIri" : "https://siemens.com",
+      "annotations" : {
+        "name" : [ {
+          "identifier" : "name",
+          "language" : "undefined",
+          "value" : "Siemens AG",
+          "type" : "label"
+        } ],
+        "homepage" : [ {
+          "identifier" : "homepage",
+          "language" : "undefined",
+          "value" : "https://www.siemens.com",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "this"
+      }
+    }, {
+      "iri" : "https://hes-so.ch#this",
+      "baseIri" : "https://hes-so.ch",
+      "annotations" : {
+        "name" : [ {
+          "identifier" : "name",
+          "language" : "undefined",
+          "value" : "University of Applied Sciences and Arts Western Switzerland HES-SO",
+          "type" : "label"
+        } ],
+        "homepage" : [ {
+          "identifier" : "homepage",
+          "language" : "undefined",
+          "value" : "https://www.hes-so.ch",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "this"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://w3id.org/smartedge/recipe-model#Create",
+    "baseIri" : "https://w3id.org/smartedge/recipe-model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Create",
+      "undefined" : "Create"
+    },
+    "comment" : {
+      "undefined" : "Create operation"
+    },
+    "id" : "7",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/smartedge/recipe-model#OutputData",
+    "baseIri" : "https://w3id.org/smartedge/recipe-model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OutputData",
+      "undefined" : "OutputData"
+    },
+    "comment" : {
+      "undefined" : "Data that is given as output by a capability"
+    },
+    "id" : "25"
+  }, {
+    "iri" : "https://w3id.org/smartedge/recipe-model#Interaction",
+    "baseIri" : "https://w3id.org/smartedge/recipe-model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Interaction",
+      "undefined" : "Interaction"
+    },
+    "comment" : {
+      "undefined" : "An interaction defines how two capabilities should interact with each other to fulfil a task or achieve a sub-goal of a recipe. It specifies the source and destination capabilities of an interaction. It also defines the operations (e.g., Retrieve, Create, publish, subscribe etc.) that should be executed on each capability to get the required information/output from a capability and execute an application."
+    },
+    "id" : "19"
+  }, {
+    "iri" : "https:///opcua/CapabilityModel/FXCapability",
+    "baseIri" : "https:///opcua/CapabilityModel",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FXCapability",
+      "undefined" : "FXCapability"
+    },
+    "comment" : {
+      "undefined" : "A superclass for all OPC UA Capabilities"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "https://w3id.org/smartedge/recipe-model#InputData",
+    "baseIri" : "https://w3id.org/smartedge/recipe-model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InputData",
+      "undefined" : "InputData"
+    },
+    "comment" : {
+      "undefined" : "Data that a capability takes as input in order to execute a function."
+    },
+    "id" : "21"
+  }, {
+    "iri" : "https://w3id.org/smartedge/recipe-model#Update",
+    "baseIri" : "https://w3id.org/smartedge/recipe-model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Update",
+      "undefined" : "Update"
+    },
+    "comment" : {
+      "undefined" : "Update operation"
+    },
+    "id" : "3",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/smartedge/recipe-model#Subscribe",
+    "baseIri" : "https://w3id.org/smartedge/recipe-model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Subscribe",
+      "undefined" : "Subscribe"
+    },
+    "comment" : {
+      "undefined" : "Subscribe operation"
+    },
+    "id" : "5",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/smartedge/recipe-model#Delete",
+    "baseIri" : "https://w3id.org/smartedge/recipe-model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Delete",
+      "undefined" : "Delete"
+    },
+    "comment" : {
+      "undefined" : "Delete operation"
+    },
+    "id" : "9",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://w3id.org/smartedge/recipe-model#Recipe",
+    "baseIri" : "https://w3id.org/smartedge/recipe-model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Recipe",
+      "undefined" : "Recipe"
+    },
+    "comment" : {
+      "undefined" : "A Recipe is a template that specifies the requirements of an application that can be created by composing one or more things or IoT offerings "
+    },
+    "id" : "23"
+  }, {
+    "iri" : "https://w3id.org/smartedge/recipe-model#Capability",
+    "baseIri" : "https://w3id.org/smartedge/recipe-model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Capability",
+      "undefined" : "Capability"
+    },
+    "subClasses" : [ "14", "17" ],
+    "comment" : {
+      "undefined" : "A capability describes the functional requirements of an application such as the capability of a thing required for an application. For example: drilling capability, capability to lift a product, capability to move a product from a to b, capability to detect an anomaly etc."
+    },
+    "id" : "15"
+  }, {
+    "iri" : "https://w3id.org/smartedge/recipe-model#Operation",
+    "baseIri" : "https://w3id.org/smartedge/recipe-model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Operation"
+    },
+    "subClasses" : [ "3", "5", "7", "9", "0", "12" ],
+    "comment" : {
+      "undefined" : "An operation (e.g., Retrieve, Create, publish, subscribe etc.) that should be executed on each capability to get the required information/output from a capability and execute an application."
+    },
+    "id" : "1"
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "2"
+  }, {
+    "range" : "1",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "4"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "6"
+  }, {
+    "range" : "1",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "8"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "10"
+  }, {
+    "range" : "1",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "11"
+  }, {
+    "range" : "15",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
+  }, {
+    "range" : "15",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/interactsWith",
+    "baseIri" : "https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "interactsWith",
+      "undefined" : "interactsWith"
+    },
+    "domain" : "19",
+    "comment" : {
+      "undefined" : "A relation between a capability and its interaction with other capailities"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "18"
+  }, {
+    "iri" : "https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasInputData",
+    "baseIri" : "https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasInputData",
+      "undefined" : "InputData"
+    },
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "A relation between a capability and its input data"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://w3id.org/smartedge/recipe-model#hasCapability",
+    "baseIri" : "https://w3id.org/smartedge/recipe-model",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasCapability",
+      "undefined" : "hasCapability"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "A relation between a Recipe and its capability / capabilities"
+    },
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasOutputData",
+    "baseIri" : "https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "hasOutputData",
+      "undefined" : "hasOutputData"
+    },
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "A relation between a Capability and its output data"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "26"
+  } ]
+}

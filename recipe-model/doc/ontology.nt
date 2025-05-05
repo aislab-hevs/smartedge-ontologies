@@ -1,0 +1,262 @@
+<https://w3id.org/smartedge/recipe-model#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-0364-6945> .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/dc/terms/created> "2024-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-0583-4376> .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-7564-4279> .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/dc/terms/description> "This ontology aims to model nodes in a swarm of edge and IoT devices, capable of managing orchestration and coordination among them, in order to accomplish common goals."@en .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/dc/terms/issued> "2025-05-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/dc/terms/modified> "2025-05-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/dc/terms/publisher> <https://www.smart-edge.eu/> .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/dc/terms/rights> "Copyright © 2025 Siemens AG, HES-SO Valais-Wallis" .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/dc/terms/title> "SmartEdge Recipe Model: Semantic Interoperability for Edge Swarms"@en .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/draft> .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "s-edge" .
+<https://w3id.org/smartedge/recipe-model#> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/smartedge/recipe-model#" .
+<https://w3id.org/smartedge/recipe-model#> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology aims to model nodes in a swarm of edge and IoT devices, capable of managing orchestration and coordination among them, in order to accomplish common goals."@en .
+<https://w3id.org/smartedge/recipe-model#> <http://www.w3.org/2000/01/rdf-schema#label> "Recipe Model"@en .
+<https://w3id.org/smartedge/recipe-model#> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.2" .
+<https://w3id.org/smartedge/recipe-model#> <http://xmlns.com/foaf/0.1/fundedBy> <https://commission.europa.eu/> .
+<https://w3id.org/smartedge/recipe-model#> <http://xmlns.com/foaf/0.1/logo> <https://www.smart-edge.eu/wp-content/uploads/2024/03/logo-smartedge-full.png> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/rights
+<http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/org#memberOf
+<http://www.w3.org/ns/org#memberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/fundedBy
+<http://xmlns.com/foaf/0.1/fundedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/homepage
+<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/logo
+<http://xmlns.com/foaf/0.1/logo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/smartedge/recipe-model#hasCapability
+<https://w3id.org/smartedge/recipe-model#hasCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/smartedge/recipe-model#hasCapability> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/smartedge/recipe-model#Recipe> .
+<https://w3id.org/smartedge/recipe-model#hasCapability> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/smartedge/recipe-model#Capability> .
+<https://w3id.org/smartedge/recipe-model#hasCapability> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between a Recipe and its capability / capabilities" .
+<https://w3id.org/smartedge/recipe-model#hasCapability> <http://www.w3.org/2000/01/rdf-schema#label> "hasCapability" .
+# 
+# https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasInputData
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasInputData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasInputData> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/smartedge/recipe-model#Capability> .
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasInputData> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/smartedge/recipe-model#InputData> .
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasInputData> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between a capability and its input data" .
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasInputData> <http://www.w3.org/2000/01/rdf-schema#label> "InputData" .
+# 
+# https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasOutputData
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasOutputData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasOutputData> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/smartedge/recipe-model#Capability> .
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasOutputData> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/smartedge/recipe-model#OutputData> .
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasOutputData> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between a Capability and its output data" .
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/hasOutputData> <http://www.w3.org/2000/01/rdf-schema#label> "hasOutputData" .
+# 
+# https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/interactsWith
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/interactsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/interactsWith> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/smartedge/recipe-model#Interaction> .
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/interactsWith> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/smartedge/recipe-model#Capability> .
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/interactsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between a capability and its interaction with other capailities" .
+<https://w3id.org/smartedge/www.semanticweb.org/SmartEdge/RecipeModel/interactsWith> <http://www.w3.org/2000/01/rdf-schema#label> "interactsWith" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://xmlns.com/foaf/0.1/Organization
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https:///opcua/CapabilityModel/FXCapability
+<https:///opcua/CapabilityModel/FXCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https:///opcua/CapabilityModel/FXCapability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/smartedge/recipe-model#Capability> .
+<https:///opcua/CapabilityModel/FXCapability> <http://www.w3.org/2000/01/rdf-schema#comment> "A superclass for all OPC UA Capabilities" .
+<https:///opcua/CapabilityModel/FXCapability> <http://www.w3.org/2000/01/rdf-schema#label> "FXCapability" .
+# 
+# https://w3id.org/smartedge/recipe-model#Capability
+<https://w3id.org/smartedge/recipe-model#Capability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/smartedge/recipe-model#Capability> <http://www.w3.org/2000/01/rdf-schema#comment> "A capability describes the functional requirements of an application such as the capability of a thing required for an application. For example: drilling capability, capability to lift a product, capability to move a product from a to b, capability to detect an anomaly etc." .
+<https://w3id.org/smartedge/recipe-model#Capability> <http://www.w3.org/2000/01/rdf-schema#label> "Capability" .
+# 
+# https://w3id.org/smartedge/recipe-model#Create
+<https://w3id.org/smartedge/recipe-model#Create> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/smartedge/recipe-model#Create> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/smartedge/recipe-model#Operation> .
+<https://w3id.org/smartedge/recipe-model#Create> <http://www.w3.org/2000/01/rdf-schema#comment> "Create operation" .
+<https://w3id.org/smartedge/recipe-model#Create> <http://www.w3.org/2000/01/rdf-schema#label> "Create" .
+# 
+# https://w3id.org/smartedge/recipe-model#Delete
+<https://w3id.org/smartedge/recipe-model#Delete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/smartedge/recipe-model#Delete> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/smartedge/recipe-model#Operation> .
+<https://w3id.org/smartedge/recipe-model#Delete> <http://www.w3.org/2000/01/rdf-schema#comment> "Delete operation" .
+<https://w3id.org/smartedge/recipe-model#Delete> <http://www.w3.org/2000/01/rdf-schema#label> "Delete" .
+# 
+# https://w3id.org/smartedge/recipe-model#InputData
+<https://w3id.org/smartedge/recipe-model#InputData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/smartedge/recipe-model#InputData> <http://www.w3.org/2000/01/rdf-schema#comment> "Data that a capability takes as input in order to execute a function." .
+<https://w3id.org/smartedge/recipe-model#InputData> <http://www.w3.org/2000/01/rdf-schema#label> "InputData" .
+# 
+# https://w3id.org/smartedge/recipe-model#Interaction
+<https://w3id.org/smartedge/recipe-model#Interaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/smartedge/recipe-model#Interaction> <http://www.w3.org/2000/01/rdf-schema#comment> "An interaction defines how two capabilities should interact with each other to fulfil a task or achieve a sub-goal of a recipe. It specifies the source and destination capabilities of an interaction. It also defines the operations (e.g., Retrieve, Create, publish, subscribe etc.) that should be executed on each capability to get the required information/output from a capability and execute an application." .
+<https://w3id.org/smartedge/recipe-model#Interaction> <http://www.w3.org/2000/01/rdf-schema#label> "Interaction" .
+# 
+# https://w3id.org/smartedge/recipe-model#Operation
+<https://w3id.org/smartedge/recipe-model#Operation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/smartedge/recipe-model#Operation> <http://www.w3.org/2000/01/rdf-schema#comment> "An operation (e.g., Retrieve, Create, publish, subscribe etc.) that should be executed on each capability to get the required information/output from a capability and execute an application." .
+<https://w3id.org/smartedge/recipe-model#Operation> <http://www.w3.org/2000/01/rdf-schema#comment> "Operation" .
+# 
+# https://w3id.org/smartedge/recipe-model#OutputData
+<https://w3id.org/smartedge/recipe-model#OutputData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/smartedge/recipe-model#OutputData> <http://www.w3.org/2000/01/rdf-schema#comment> "Data that is given as output by a capability" .
+<https://w3id.org/smartedge/recipe-model#OutputData> <http://www.w3.org/2000/01/rdf-schema#label> "OutputData" .
+# 
+# https://w3id.org/smartedge/recipe-model#Publish
+<https://w3id.org/smartedge/recipe-model#Publish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/smartedge/recipe-model#Publish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/smartedge/recipe-model#Operation> .
+<https://w3id.org/smartedge/recipe-model#Publish> <http://www.w3.org/2000/01/rdf-schema#comment> "Publish operation " .
+<https://w3id.org/smartedge/recipe-model#Publish> <http://www.w3.org/2000/01/rdf-schema#label> "Publish" .
+# 
+# https://w3id.org/smartedge/recipe-model#Recipe
+<https://w3id.org/smartedge/recipe-model#Recipe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/smartedge/recipe-model#Recipe> <http://www.w3.org/2000/01/rdf-schema#comment> "A Recipe is a template that specifies the requirements of an application that can be created by composing one or more things or IoT offerings " .
+<https://w3id.org/smartedge/recipe-model#Recipe> <http://www.w3.org/2000/01/rdf-schema#label> "Recipe" .
+# 
+# https://w3id.org/smartedge/recipe-model#Retrieve
+<https://w3id.org/smartedge/recipe-model#Retrieve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/smartedge/recipe-model#Retrieve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/smartedge/recipe-model#Operation> .
+<https://w3id.org/smartedge/recipe-model#Retrieve> <http://www.w3.org/2000/01/rdf-schema#comment> "Retrieve operation" .
+<https://w3id.org/smartedge/recipe-model#Retrieve> <http://www.w3.org/2000/01/rdf-schema#label> "Retrieve" .
+# 
+# https://w3id.org/smartedge/recipe-model#Subscribe
+<https://w3id.org/smartedge/recipe-model#Subscribe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/smartedge/recipe-model#Subscribe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/smartedge/recipe-model#Operation> .
+<https://w3id.org/smartedge/recipe-model#Subscribe> <http://www.w3.org/2000/01/rdf-schema#comment> "Subscribe operation" .
+<https://w3id.org/smartedge/recipe-model#Subscribe> <http://www.w3.org/2000/01/rdf-schema#label> "Subscribe" .
+# 
+# https://w3id.org/smartedge/recipe-model#Update
+<https://w3id.org/smartedge/recipe-model#Update> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/smartedge/recipe-model#Update> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/smartedge/recipe-model#Operation> .
+<https://w3id.org/smartedge/recipe-model#Update> <http://www.w3.org/2000/01/rdf-schema#comment> "Update operation" .
+<https://w3id.org/smartedge/recipe-model#Update> <http://www.w3.org/2000/01/rdf-schema#label> "Update" .
+# 
+# https://www.w3.org/2019/wot/td#InteractionAffordance
+<https://www.w3.org/2019/wot/td#InteractionAffordance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.w3.org/2019/wot/td#InteractionAffordance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/smartedge/recipe-model#Capability> .
+<https://www.w3.org/2019/wot/td#InteractionAffordance> <http://www.w3.org/2000/01/rdf-schema#comment> "A W3C Web of Things Thing Description Interaction Affordance used as a capability in a Recipe" .
+<https://www.w3.org/2019/wot/td#InteractionAffordance> <http://www.w3.org/2000/01/rdf-schema#label> "Interaction Affordance" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://hes-so.ch#this
+<https://hes-so.ch#this> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://hes-so.ch#this> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://hes-so.ch#this> <http://xmlns.com/foaf/0.1/homepage> "https://www.hes-so.ch" .
+<https://hes-so.ch#this> <http://xmlns.com/foaf/0.1/name> "University of Applied Sciences and Arts Western Switzerland HES-SO" .
+# 
+# https://siemens.com#this
+<https://siemens.com#this> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://siemens.com#this> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://siemens.com#this> <http://xmlns.com/foaf/0.1/homepage> "https://www.siemens.com" .
+<https://siemens.com#this> <http://xmlns.com/foaf/0.1/name> "Siemens AG" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<https://orcid.org/0000-0002-0364-6945> <http://www.w3.org/ns/org#memberOf> <https://hes-so.ch#this> .
+<https://orcid.org/0000-0002-0364-6945> <http://xmlns.com/foaf/0.1/name> "Jean-Paul Calbimonte"@en .
+# 
+<https://orcid.org/0000-0002-0583-4376> <http://www.w3.org/ns/org#memberOf> <https://siemens.com#this> .
+<https://orcid.org/0000-0002-0583-4376> <http://xmlns.com/foaf/0.1/name> "Darko Anicic"@en .
+# 
+<https://orcid.org/0000-0002-7564-4279> <http://www.w3.org/ns/org#memberOf> <https://siemens.com#this> .
+<https://orcid.org/0000-0002-7564-4279> <http://xmlns.com/foaf/0.1/name> "Aparna Saisree Thuluva"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

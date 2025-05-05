@@ -1,0 +1,170 @@
+@prefix : <https://w3id.org/smartedge/recipe-model#> .
+@prefix td: <https://www.w3.org/2019/wot/td#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@base <https://w3id.org/smartedge/recipe-model#> .
+
+<https://w3id.org/smartedge/recipe-model#> rdf:type owl:Ontology ;
+                        dc:publisher <https://www.smart-edge.eu/> ;
+                        dcterms:creator <https://orcid.org/0000-0002-7564-4279>,<https://orcid.org/0000-0002-0583-4376>;
+                        dcterms:contributor <https://orcid.org/0000-0002-0364-6945> ;
+                        dcterms:description   "This ontology aims to model nodes in a swarm of edge and IoT devices, capable of managing orchestration and coordination among them, in order to accomplish common goals."@en ;
+                        dcterms:created "2024-06-01"^^xsd:date ;
+                        dcterms:issued "2025-05-01"^^xsd:date ;
+                        dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+                        dcterms:modified "2025-05-04"^^xsd:date ;
+                        dcterms:publisher <https://www.smart-edge.eu/> ;
+                        dcterms:rights "Copyright © 2025 Siemens AG, HES-SO Valais-Wallis"^^xsd:string ;
+                        dcterms:title  "SmartEdge Recipe Model: Semantic Interoperability for Edge Swarms"@en ;
+                        vann:preferredNamespacePrefix "s-edge"^^xsd:string ;
+                        vann:preferredNamespaceUri "https://w3id.org/smartedge/recipe-model#"^^xsd:string ;
+                        rdfs:label "Recipe Model"@en ;
+                        rdfs:comment "This ontology aims to model nodes in a swarm of edge and IoT devices, capable of managing orchestration and coordination among them, in order to accomplish common goals."@en ;
+                        bibo:status <http://purl.org/ontology/bibo/status/draft> ;
+                        foaf:fundedBy <https://commission.europa.eu/>;
+                        foaf:logo <https://www.smart-edge.eu/wp-content/uploads/2024/03/logo-smartedge-full.png>;
+                        owl:versionInfo "0.0.2"^^xsd:string .
+
+<https://orcid.org/0000-0002-7564-4279> foaf:name "Aparna Saisree Thuluva"@en ;
+	                                    org:memberOf <https://siemens.com#this> .
+<https://orcid.org/0000-0002-0583-4376> foaf:name "Darko Anicic"@en ;
+	                                    org:memberOf <https://siemens.com#this> .
+
+<https://orcid.org/0000-0002-0364-6945> foaf:name "Jean-Paul Calbimonte"@en ;
+	                                    org:memberOf <https://hes-so.ch#this> .
+
+<https://siemens.com#this>  rdf:type owl:NamedIndividual ,
+                            foaf:Organization ;
+                            foaf:homepage "https://www.siemens.com" ;
+                            foaf:name "Siemens AG" .
+
+<https://hes-so.ch#this>    rdf:type owl:NamedIndividual ,
+                            foaf:Organization ;
+                            foaf:homepage "https://www.hes-so.ch" ;
+                            foaf:name "University of Applied Sciences and Arts Western Switzerland HES-SO" .
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  https://w3id.org/smartedge/recipe-model#hasCapability
+<https://w3id.org/smartedge/recipe-model#hasCapability> rdf:type owl:ObjectProperty ;                                                                 
+                                                        rdfs:label "hasCapability" ;
+                                                        rdfs:comment "A relation between a Recipe and its capability / capabilities" ;
+                                                        rdfs:range <https://w3id.org/smartedge/recipe-model#Capability> ;
+                                                        rdfs:domain <https://w3id.org/smartedge/recipe-model#Recipe> .
+
+###  www.semanticweb.org/SmartEdge/RecipeModel/hasInputData
+<www.semanticweb.org/SmartEdge/RecipeModel/hasInputData>    rdf:type owl:ObjectProperty ;
+                                                            rdfs:label "InputData" ;
+                                                            rdfs:comment "A relation between a capability and its input data" ;
+                                                            rdfs:domain <https://w3id.org/smartedge/recipe-model#Capability> ;
+                                                            rdfs:range <https://w3id.org/smartedge/recipe-model#InputData> .
+
+###  www.semanticweb.org/SmartEdge/RecipeModel/hasOutputData
+<www.semanticweb.org/SmartEdge/RecipeModel/hasOutputData>   rdf:type owl:ObjectProperty ;
+                                                            rdfs:label """hasOutputData""" ;
+                                                            rdfs:comment "A relation between a Capability and its output data" ;
+                                                            rdfs:domain <https://w3id.org/smartedge/recipe-model#Capability> ;
+                                                            rdfs:range <https://w3id.org/smartedge/recipe-model#OutputData> .
+
+###  www.semanticweb.org/SmartEdge/RecipeModel/interactsWith
+<www.semanticweb.org/SmartEdge/RecipeModel/interactsWith>   rdf:type owl:ObjectProperty ;
+                                                            rdfs:label "interactsWith" ;
+                                                            rdfs:comment "A relation between a capability and its interaction with other capailities" ;
+                                                            rdfs:range <https://w3id.org/smartedge/recipe-model#Capability> ;
+                                                            rdfs:domain <https://w3id.org/smartedge/recipe-model#Interaction> .
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+###  https://w3id.org/smartedge/recipe-model#Capability
+<https://w3id.org/smartedge/recipe-model#Capability>    rdf:type owl:Class ;                                                              
+                                                        rdfs:label "Capability" ;
+                                                        rdfs:comment "A capability describes the functional requirements of an application such as the capability of a thing required for an application. For example: drilling capability, capability to lift a product, capability to move a product from a to b, capability to detect an anomaly etc." .
+
+###  https://w3id.org/smartedge/recipe-model#Create
+<https://w3id.org/smartedge/recipe-model#Create>    rdf:type owl:Class ;
+                                                    rdfs:label "Create" ;
+                                                    rdfs:subClassOf <https://w3id.org/smartedge/recipe-model#Operation> ;
+                                                    rdfs:comment "Create operation" .
+
+###  https://w3id.org/smartedge/recipe-model#Delete
+<https://w3id.org/smartedge/recipe-model#Delete>    rdf:type owl:Class ;
+                                                    rdfs:label "Delete" ;
+                                                    rdfs:subClassOf <https://w3id.org/smartedge/recipe-model#Operation> ;
+                                                    rdfs:comment "Delete operation" .
+
+###  https://w3id.org/smartedge/recipe-model#InputData
+<https://w3id.org/smartedge/recipe-model#InputData>     rdf:type owl:Class ;
+                                                        rdfs:label "InputData" ;
+                                                        rdfs:comment "Data that a capability takes as input in order to execute a function." .
+
+###  https://w3id.org/smartedge/recipe-model#Interaction
+<https://w3id.org/smartedge/recipe-model#Interaction>   rdf:type owl:Class ;
+                                                        rdfs:label "Interaction" ;
+                                                        rdfs:comment "An interaction defines how two capabilities should interact with each other to fulfil a task or achieve a sub-goal of a recipe. It specifies the source and destination capabilities of an interaction. It also defines the operations (e.g., Retrieve, Create, publish, subscribe etc.) that should be executed on each capability to get the required information/output from a capability and execute an application." .
+
+###  https://w3id.org/smartedge/recipe-model#Operation
+<https://w3id.org/smartedge/recipe-model#Operation> rdf:type owl:Class ;
+                                                    rdfs:comment "An operation (e.g., Retrieve, Create, publish, subscribe etc.) that should be executed on each capability to get the required information/output from a capability and execute an application." ,
+                                                                 "Operation" .
+
+###  https://w3id.org/smartedge/recipe-model#OutputData
+<https://w3id.org/smartedge/recipe-model#OutputData>    rdf:type owl:Class ;
+                                                        rdfs:label "OutputData" ;
+                                                        rdfs:comment "Data that is given as output by a capability" .
+
+###  https://w3id.org/smartedge/recipe-model#Publish
+<https://w3id.org/smartedge/recipe-model#Publish>   rdf:type owl:Class ;
+                                                    rdfs:label """Publish""" ;
+                                                    rdfs:subClassOf <https://w3id.org/smartedge/recipe-model#Operation> ;
+                                                    rdfs:comment "Publish operation " .
+
+###  https://w3id.org/smartedge/recipe-model#Recipe
+<https://w3id.org/smartedge/recipe-model#Recipe>    rdf:type owl:Class ;
+                                                    rdfs:label "Recipe" ;
+                                                    rdfs:comment "A Recipe is a template that specifies the requirements of an application that can be created by composing one or more things or IoT offerings " .
+
+###  https://w3id.org/smartedge/recipe-model#Retrieve
+<https://w3id.org/smartedge/recipe-model#Retrieve>  rdf:type owl:Class ;
+                                                    rdfs:label "Retrieve" ;
+                                                    rdfs:subClassOf <https://w3id.org/smartedge/recipe-model#Operation> ;
+                                                    rdfs:comment "Retrieve operation" .
+
+###  https://w3id.org/smartedge/recipe-model#Subscribe
+<https://w3id.org/smartedge/recipe-model#Subscribe> rdf:type owl:Class ;
+                                                    rdfs:label """Subscribe""" ;
+                                                    rdfs:subClassOf <https://w3id.org/smartedge/recipe-model#Operation> ;
+                                                    rdfs:comment "Subscribe operation" .
+
+###  https://w3id.org/smartedge/recipe-model#Update
+<https://w3id.org/smartedge/recipe-model#Update>    rdf:type owl:Class ;
+                                                    rdfs:label "Update" ;
+                                                    rdfs:subClassOf <https://w3id.org/smartedge/recipe-model#Operation> ;
+                                                    rdfs:comment "Update operation" .
+
+###  https:///opcua/CapabilityModel/FXCapability
+<https:///opcua/CapabilityModel/FXCapability> rdf:type owl:Class ;
+                                              rdfs:label "FXCapability" ;
+                                              rdfs:subClassOf <https://w3id.org/smartedge/recipe-model#Capability> ;
+                                              rdfs:comment "A superclass for all OPC UA Capabilities" .
+
+###  https://www.w3.org/2019/wot/td#InteractionAffordance
+td:InteractionAffordance    rdf:type owl:Class ;
+                            rdfs:label "Interaction Affordance" ;
+                            rdfs:subClassOf <https://w3id.org/smartedge/recipe-model#Capability> ;
+                            rdfs:comment "A W3C Web of Things Thing Description Interaction Affordance used as a capability in a Recipe" .
